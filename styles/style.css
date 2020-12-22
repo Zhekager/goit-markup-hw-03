@@ -52,7 +52,9 @@ ul{
        color: #2196F3; }       
     /*шапка*/
 .banner  {
-
+       width: 1600px;
+       margin-left: auto;
+       margin-right: auto;
        background: #2F303A;  }      
 .heading{
        font-weight: 900;
@@ -222,7 +224,7 @@ button {
        margin-right: auto;
        padding-left: 15px;
        padding-right: 15px;
-       background: #2F303A;  }
+        }
 .btn > .widget{       
        width: 200px;
        height: 50px;
@@ -293,8 +295,7 @@ button {
        padding-left: 0;  }
 /* Наша команда */
 .commercial{
-       background: #F5F4FA;
-  }
+       background: #F5F4FA;  }
 .commercial:not(:box-sizing){
        display: flex;
        align-items: center;
@@ -367,18 +368,12 @@ button {
        padding-right: 15px;
        background: #2F303A;    }
 .crisper{ 
-        width: auto;
-        height: 252px;
-       
+        width: 1600px;
+        height: 252px;       
         background: #2F303A; 
         margin-left: auto;
         margin-right: auto;     }
-.aside,
-.adress,
-.adds{     
-            }
 .adress{
-      
        padding-top: 20px;
        padding-bottom: 60px;  }  
 .logo-footer{
@@ -402,8 +397,7 @@ button {
 /* кнопка */
 .coloring{
        background: #ffffff;
-      margin-bottom: 79px;       
-   }
+      margin-bottom: 79px;          }
 .group{
        width: 550px;
        height: auto;
@@ -426,5 +420,4 @@ button {
 .stud{
        padding: 7px;
        width: auto;
-       height: auto;           
-     }      
+       height: auto;            }      
