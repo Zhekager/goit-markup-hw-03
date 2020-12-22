@@ -1,19 +1,13 @@
 body {
-       background: #E5E5E5;
+       background: #ffffff;
       font-family: Roboto,sans-serif;
       font-style: normal;
+      border: none;
      box-sizing: unset;   }
 h1,h2,h3,h4{
       font-family: Roboto,sans-serif;
       font-weight: 700; }
- body,
- h1,
- h2,
- h3,
- h4,
- ul,
- li,
- p{
+ body,h1,h2,h3,h4,ul,li,p{
         margin: 0px;    }     
     /*Верхняя линия*/
 header{
@@ -86,6 +80,7 @@ ul{
        letter-spacing: 0.03em;
        color: #212121;  }
   /*наша команда*/
+  
 .caption{
        font-weight: 700;
        font-size: 36px;
@@ -297,7 +292,9 @@ button {
        margin-left: 0px;
        padding-left: 0;  }
 /* Наша команда */
-
+.commercial{
+       background: #F5F4FA;
+  }
 .commercial:not(:box-sizing){
        display: flex;
        align-items: center;
@@ -314,13 +311,14 @@ button {
        height: 42px;
        margin-left: auto;
        margin-right: auto;
-       margin-bottom: 40px;
+       margin-top: 79px;
+       margin-bottom: -50px;
        text-align: center;   }     
 .promo{
        display: flex;
        align-items: center;
        width: 1170px;
-       height: 368px;
+       height: 648px;
        margin-left: auto;
        margin-right: auto;
        padding-right: 20px;   }
@@ -365,9 +363,9 @@ button {
        margin-left: auto; 
        margin-right: auto;
        padding-top: 60px;    }
-.crisper{
+.crisper{ 
        width: auto;
-       margin-top: 94px;      }
+       margin-top: px;      }
 .aside,
 .adress,
 .adds{     
