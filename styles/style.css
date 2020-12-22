@@ -216,7 +216,7 @@ button {
        text-transform: uppercase;
        background: #2F303A;  }
 .control{
-       width: 1600px;
+       width: 1200px;
        height: 142x;
        margin-left: auto;
        margin-right: auto;
@@ -358,21 +358,27 @@ button {
 .adv{
        display: block;
        align-items: center;
-       width: 1170px;
+       width: 1200px;
        height: 252px;
        margin-left: auto; 
        margin-right: auto;
        padding-top: 60px;
+       padding-left: 15px;
+       padding-right: 15px;
        background: #2F303A;    }
 .crisper{ 
-       width: auto;
-       background: #2F303A;      }
+        width: auto;
+        height: 252px;
+       
+        background: #2F303A; 
+        margin-left: auto;
+        margin-right: auto;     }
 .aside,
 .adress,
 .adds{     
-       margin-left: auto;
-       margin-right: auto;      }
+            }
 .adress{
+      
        padding-top: 20px;
        padding-bottom: 60px;  }  
 .logo-footer{
@@ -396,8 +402,7 @@ button {
 /* кнопка */
 .coloring{
        background: #ffffff;
-      margin-bottom: 79px;
-          
+      margin-bottom: 79px;       
    }
 .group{
        width: 550px;
