@@ -119,10 +119,8 @@ ul{
 .aside:focus{
         color: #2196F3; }
   /*кнопки*/
-  .coloring{
-      background: #ffffff;   
-  }
-.filter{
+
+  .filter{
      cursor: pointer;      } 
 button {
        border: 0;     }
@@ -175,7 +173,8 @@ button {
 .header{
        width: 1600px;
        height: 0px;
-       left: 0px;
+      margin-left: auto;
+      margin-right: auto;
        top: 80px;
        
        border: 1px solid #ECECEC; 
@@ -184,8 +183,8 @@ button {
        height: 80px;
        display: flex;
        align-items: center;
-       margin-top: 0px;
-       margin-bottom: 0px;  } 
+       margin-top: auto;
+       margin-bottom: auto;  } 
 .header>.container{
        display: flex;
        align-items: center;  }
@@ -389,14 +388,19 @@ button {
 /* ***портфолио*** */
 .bloc{
        width: 1170px;
-       height: auto;
+       height: 1300зч;
        margin-left: auto;
        margin-right: auto;   } 
 /* кнопка */
+.coloring{
+       background: #ffffff;
+      margin-bottom: 79px;
+          
+   }
 .group{
        width: 550px;
        height: auto;
-       margin: 77px auto 50px;
+       margin: 77px auto 34px;
        display: flex; 
        align-items: center;  } 
  .filter{
