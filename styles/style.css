@@ -52,6 +52,7 @@ ul{
        color: #2196F3; }       
     /*шапка*/
 .banner  {
+
        background: #2F303A;  }      
 .heading{
        font-weight: 900;
@@ -173,12 +174,10 @@ button {
 .header{
        width: 1600px;
        height: 0px;
-      margin-left: auto;
-      margin-right: auto;
+       margin-left: auto;
+       margin-right: auto;
        top: 80px;
-       
-       border: 1px solid #ECECEC; 
-}        
+       border: 1px solid #ECECEC; }        
 .header{
        height: 80px;
        display: flex;
@@ -214,14 +213,16 @@ button {
        height: 120px;
        margin: 200px auto 40px 250px;
        text-align: center;
-       text-transform: uppercase;  }
+       text-transform: uppercase;
+       background: #2F303A;  }
 .control{
        width: 1600px;
        height: 142x;
        margin-left: auto;
        margin-right: auto;
        padding-left: 15px;
-       padding-right: 15px;    }
+       padding-right: 15px;
+       background: #2F303A;  }
 .btn > .widget{       
        width: 200px;
        height: 50px;
@@ -361,10 +362,11 @@ button {
        height: 252px;
        margin-left: auto; 
        margin-right: auto;
-       padding-top: 60px;    }
+       padding-top: 60px;
+       background: #2F303A;    }
 .crisper{ 
        width: auto;
-       margin-top: px;      }
+       background: #2F303A;      }
 .aside,
 .adress,
 .adds{     
