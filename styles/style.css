@@ -1,7 +1,8 @@
 body {
        background: #ffffff;
-       font-family: Roboto,sans-serif;
+       font-family: Roboto sans-serif;
        font-style: normal;
+       line-height: normal;
        border: none;
        box-sizing: unset;   }
 h1,h2,h3,h4{
@@ -17,8 +18,7 @@ header{
        font-family: Raleway,sans-serif;
        font-weight: 700;
        font-size: 26px;
-       line-height: 30.52px;
-       }
+       line-height: 30.52px;       }
 .link{
        color: #212121; }
 .link:hover{
@@ -29,8 +29,7 @@ header{
        font-weight: 500;
        font-size: 14px;
        line-height: 16px;
-       letter-spacing: 0.02em;
-       color: #212121; }
+       letter-spacing: 0.02em;     }
 li{
        list-style: none; }
 a{
@@ -52,16 +51,16 @@ ul{
        color: #2196F3; }       
     /*шапка*/
 .banner  {
-       width: 1600px;
-       margin-left: auto;
-       margin-right: auto;
+       
        background: #2F303A;  }      
 .heading{
+      
        font-weight: 900;
        font-size: 44px;
        line-height: 60px;
        color: #ffffff;
-       letter-spacing: 0.06em; }
+       letter-spacing: 0.06em;
+ }
   /*особенности*/
 .subject{
        font-weight: 700;
@@ -108,10 +107,8 @@ ul{
        letter-spacing: 0.03em;
        color: #757575; }
 .adress{
-       font-size: 14px;
-       line-height: 24px;
-       letter-spacing: 0.03em;
-       color: #FFFFFF; }
+       color: #FFFFFF; 
+}
 .aside{
        font-size: 14px;
        line-height: 24px;
@@ -127,10 +124,13 @@ ul{
      cursor: pointer;      } 
 button {
        border: 0;     }
-.filter{      
-        font-weight: 600;
+.filter{  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
         font-size: 16px;
         line-height: 26px;
+        text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
         border-radius: 4px;
@@ -172,23 +172,22 @@ button {
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
-        padding: 15px;     }
+        padding: 0px 15px;     }
 .header{
        width: 1200px;
-       height: 0px;
+       height: 80px ;
+       margin: auto;
+       display: flex;
+       align-items: center;      }        
+.header>.container{
+       display: flex;
+       align-items: center;  } 
+.line{
+       width: auto;
        margin-left: auto;
        margin-right: auto;
        top: 80px;
-       border: 1px solid #ECECEC; }        
-.header{
-       height: 80px;
-       display: flex;
-       align-items: center;
-       margin-top: auto;
-       margin-bottom: auto;  } 
-.header>.container{
-       display: flex;
-       align-items: center;  }
+       border-bottom: 1px solid #ECECEC;       }
 .logo{
        margin-right: 53px; }
 .navigation{
@@ -208,22 +207,30 @@ button {
 .contacts:last-child{
        margin-right: 50px;  }
 /* Шапка */
+.helmet{
+      width: auto;
+      height: 600px;
+      background: #2F303A;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 94px;
+      padding-top: 200px;
+      padding-bottom: 200px; }
 .heading{
        display: flex;
        align-items: center;
-       width: 636px;
+       width: 616px;
        height: 120px;
-       margin: 200px auto 40px 250px;
+       margin: 0px 257px;
        text-align: center;
        text-transform: uppercase;
-       background: #2F303A;  }
+         }
 .control{
-       width: 1200px;
-       height: 142x;
+       width: 1170px;
+       height: auto;
        margin-left: auto;
        margin-right: auto;
-       padding-left: 15px;
-       padding-right: 15px;
+
         }
 .btn > .widget{       
        width: 200px;
@@ -233,7 +240,7 @@ button {
        text-align: center;
        margin-left: auto;
        margin-right: auto;
-       margin-bottom: 190px;
+       margin-top: 30px;
        background: #2196F3;
        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
        border-radius: 4px;  }  
@@ -253,9 +260,15 @@ button {
 .text{
        display: flex;
        align-items: center;
-       width: 1100px;
+       width: 1170px;
        height: 101px;
-       margin: 77px 30px;   }
+margin-bottom: 94px;   }
+.rubric{
+       display: block;
+       align-items: center;
+       width: 270px;
+       height: 101px;
+      margin-right: 30px;      }  
 .subject{
        width: 270px;
        height: 16px;
@@ -266,45 +279,46 @@ button {
 .lead{
        width: 270px;
        height: 75px;
-       margin-left: auto;
-       margin-right: auto;
-       font-family: Roboto;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 14px;
-       line-height: 24px;
-       letter-spacing: 0.03em;
-       color: #757575;  }
+       padding-top: 10px;
+       font-family: Roboto;   }
 /* чем мы занимаемся */
 .subtitle{
        display: flex;
        flex-direction: column;
        width: 380px;
        height: 42px;
-       margin: auto auto 100px;
+       margin: auto auto 50px auto;
        text-align: center;  }
 .wrapper{
        display: flex;
        align-items: center;
        width: 770px;
        height: 294px;
-       padding-bottom: 94px;  }
+       }
+       .bowl{
+       width: 1170px;
+       height: 386px;
+       margin-bottom: 94px;      
+       }
 .thumb{ 
        margin-right: 30px;
        margin-left: 0px;
        padding-left: 0;  }
 /* Наша команда */
 .commercial{
-       background: #F5F4FA;  }
+       width: auto;
+       background: #F5F4FA;
+       padding-bottom: 94px;
+       padding-top: 94px;  }
 .commercial:not(:box-sizing){
        display: flex;
        align-items: center;
-       width: 1200px;
+       width: auto;
        height: 648px;
        margin-left: auto;
        margin-right: auto;
-       padding: 0px;
-       background: #F5F4FA;  } 
+       background: #F5F4FA; 
+ } 
 .caption{
        display: flex;
        align-items: center;
@@ -312,17 +326,17 @@ button {
        height: 42px;
        margin-left: auto;
        margin-right: auto;
-       margin-top: 79px;
-       margin-bottom: -50px;
-       text-align: center;   }     
+
+       text-align: center;   }
+
 .promo{
        display: flex;
        align-items: center;
        width: 1170px;
-       height: 648px;
+       height: 368px;
+       margin-top: 50px;
        margin-left: auto;
-       margin-right: auto;
-       padding-right: 20px;   }
+       margin-right: auto;   }
 .userpic{
        width: 270px;
        height: 368px;
@@ -364,18 +378,24 @@ button {
        margin-left: auto; 
        margin-right: auto;
        padding-top: 60px;
-       padding-left: 15px;
+      
        padding-right: 15px;
        background: #2F303A;    }
 .crisper{ 
-        width: 1600px;
+        width: auto;
         height: 252px;       
         background: #2F303A; 
         margin-left: auto;
         margin-right: auto;     }
 .adress{
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 24px;
+       letter-spacing: 0.03em;
        padding-top: 20px;
-       padding-bottom: 60px;  }  
+         }  
 .logo-footer{
        width: 145px;
        height: 31px;
@@ -390,34 +410,43 @@ button {
        letter-spacing: 0.03em;   }
 /* ***портфолио*** */
 .bloc{
-       width: 1170px;
-       height: 1300зч;
+       display: flex;
+       align-items: center;
+       width: auto;
+       height: 54px;
        margin-left: auto;
-       margin-right: auto;   } 
+       margin-right: auto;
+       margin-bottom: 34px; 
+  } 
 /* кнопка */
 .coloring{
        background: #ffffff;
-      margin-bottom: 79px;          }
+      margin-bottom: 79px;
+       padding-top: 94px;  }
 .group{
-       width: 550px;
+       /* width: 550px;
        height: auto;
-       margin: 77px auto 34px;
+       margin: 77px auto 34px; */
        display: flex; 
-       align-items: center;  } 
+       align-items: center; 
+ margin-left: auto;
+margin-right: auto;} 
  .filter{
-       margin-right: 8px;    }
+       padding: 6px 22px;
+       width: auto;
+       height: auto; }
 .spreadsheet{
+       width: 1200px;
+       height: 1314px;
        display: flex;
-       flex-wrap: wrap;  }
+       flex-wrap: wrap;
+  }
 .content{
        width: 370px;
        height: 404px;
-       margin: 10px;   }
+       margin: 0px 15px;   }
 .internal-block{
-       width: 322px;
-       height: 70px;
-      margin: 20px 24px;  } 
+      
+      padding:20px 24px;  } 
 .stud{
-       padding: 7px;
-       width: auto;
-       height: auto;            }      
+      margin: 0px 8px;        }      
