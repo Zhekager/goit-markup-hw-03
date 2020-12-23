@@ -208,7 +208,7 @@ button {
        margin-right: 50px;  }
 /* Шапка */
 .helmet{
-      width: auto;
+      width: 1200px;
       height: 600px;
       background: #2F303A;
       margin-left: auto;
@@ -306,14 +306,16 @@ margin-bottom: 94px;   }
        padding-left: 0;  }
 /* Наша команда */
 .commercial{
-       width: auto;
+       width: 1200px;
        background: #F5F4FA;
        padding-bottom: 94px;
-       padding-top: 94px;  }
+       padding-top: 94px;
+margin-left: auto;
+margin-right: auto;  }
 .commercial:not(:box-sizing){
        display: flex;
        align-items: center;
-       width: auto;
+       width: 1200px;
        height: 648px;
        margin-left: auto;
        margin-right: auto;
@@ -326,9 +328,7 @@ margin-bottom: 94px;   }
        height: 42px;
        margin-left: auto;
        margin-right: auto;
-
        text-align: center;   }
-
 .promo{
        display: flex;
        align-items: center;
@@ -382,7 +382,7 @@ margin-bottom: 94px;   }
        padding-right: 15px;
        background: #2F303A;    }
 .crisper{ 
-        width: auto;
+        width: 1200px;
         height: 252px;       
         background: #2F303A; 
         margin-left: auto;
