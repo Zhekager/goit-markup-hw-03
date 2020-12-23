@@ -310,8 +310,10 @@ margin-bottom: 94px;   }
        background: #F5F4FA;
        padding-bottom: 94px;
        padding-top: 94px;
-margin-left: auto;
-margin-right: auto;  }
+       padding-left: auto;
+       padding-right: auto;
+       margin-left: auto;
+       margin-right: auto;  }
 .commercial:not(:box-sizing){
        display: flex;
        align-items: center;
@@ -373,13 +375,11 @@ margin-right: auto;  }
 .adv{
        display: block;
        align-items: center;
-       width: 1200px;
+       width: 1170px;
        height: 252px;
        margin-left: auto; 
        margin-right: auto;
        padding-top: 60px;
-      
-       padding-right: 15px;
        background: #2F303A;    }
 .crisper{ 
         width: 1200px;
@@ -399,8 +399,6 @@ margin-right: auto;  }
 .logo-footer{
        width: 145px;
        height: 31px;
-       margin-left: auto;
-       margin-right: auto;
        margin-top: 50px;
        font-family: Raleway;
        font-style: normal;
@@ -424,9 +422,6 @@ margin-right: auto;  }
       margin-bottom: 79px;
        padding-top: 94px;  }
 .group{
-       /* width: 550px;
-       height: auto;
-       margin: 77px auto 34px; */
        display: flex; 
        align-items: center; 
  margin-left: auto;
