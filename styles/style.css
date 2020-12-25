@@ -142,7 +142,7 @@ ul{
 
 .filter{
      cursor: pointer;      } 
-button {
+.button {
        border: 0;     }
 .filter{  
         font-family: Roboto;
@@ -223,9 +223,7 @@ button {
        margin-right: 50px;  }
 /* Шапка */
 .helmet{     
-      background: #2F303A;
-      padding-left: 257px;
-      padding-right: 257px;   
+      background: #2F303A; 
       padding-top: 200px;
       padding-bottom: 200px;    }
 .heading{
@@ -262,12 +260,14 @@ button {
        width: 1px;
        height: 1px;
        margin: -1px;  }
+.element{
+        padding-top: 94px;
+       padding-bottom: 94px;          }
+           
 .text{
        display: flex;
        align-items: center;
-       height: auto;
-       padding-top: 94px;
-       padding-bottom: 94px;   }
+       height: auto;      }
 .rubric{
        display: block;
        align-items: center;
@@ -287,24 +287,27 @@ button {
        padding-top: 10px;
        font-family: Roboto;   }
 /* чем мы занимаемся */
-.subtitle{
+.subtitle{ 
+       width: 400px;
        display: flex;
        flex-direction: column;
        width: 380px;
-       height: 42px;
+       height: auto;
        margin-left: auto;
        margin-right: auto;
+       padding-bottom: 50px;
        text-align: center;  }
-.wrapper{
-       display: flex;
-       justify-content: space-between;
-       width: 1170px;
-       height: auto; 
-       padding-top: 50px;     }
-.bowl{      
-       height: 386px;         }
-.thumb{ 
+.bowl{
        
+       width: 1200px;
+       height: auto; 
+       margin: 0px auto;
+       padding-bottom: 94px;     }
+.wrapper{      
+       display: flex;
+       justify-content: space-between;         }
+.thumb{
+
        padding-left: 0;  }
 /* Наша команда */
 .commercial{     
@@ -414,7 +417,7 @@ button {
        padding-top: 94px;  }
 .group{
        display: flex; 
-       align-items: center; 
+       align-items: center;
        width: 1170px;
        height: auto;
        padding-bottom: 50px; 
@@ -428,8 +431,9 @@ button {
        width: 1200px;
        height: 1300px;
        display: flex;
-       flex-wrap: wrap;      }
-       
+       flex-wrap: wrap;
+      }
+
 .content-Macbook
 .content-ball
 .content-Seafood
