@@ -26,10 +26,13 @@ header{
 .link:focus{
         color: #2196F3; }      
 .menu-nav{
+       font-family: Roboto;
+       font-style: normal;
        font-weight: 500;
        font-size: 14px;
        line-height: 16px;
-       letter-spacing: 0.02em;     }
+       letter-spacing: 0.02em;
+     }
 li{
        list-style: none; }
 a{
@@ -41,10 +44,14 @@ ul{
        padding: 0px;      }
 /*контакты*/
 .contacts{
+       font-family: Roboto;
+       font-style: normal;
+       line-height: 16px;
        font-weight: 500;
        font-size: 14px;
        letter-spacing: 0.02em;
-       color: #757575;       }
+       color: #757575;      
+ }
 .contacts:hover{
        color: #2196F3; }
 .contacts:focus{
@@ -106,11 +113,27 @@ ul{
 .adress{
        color: #FFFFFF; 
 }
-.aside{
+.adds{
+       
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 24px;
+       letter-spacing: 0.03em;
+       color: #FFFFFF;    
+}
+.aside-mailto,
+.aside-tel{
+       display: flex;
+       height: auto;
        font-size: 14px;
        line-height: 24px;
        letter-spacing: 0.03em;
        color: rgba(255, 255, 255, 0.6); }
+.aside-mailto{
+           padding-bottom: 9px;
+           padding-top: 9px;         }
 .aside:hover{
        color: #2196F3; }
 .aside:focus{
@@ -166,22 +189,20 @@ button {
 .logo-footer{
      cursor: pointer;  }
 .container{
-       width: 1170px;
+       width: 1200px;
        height: auto;
        margin-left: auto;
        margin-right: auto;       
         padding: 0px 15px;          }
 .header{
        height: 80px ;
-       margin: auto;
+       border-bottom:  1px solid #ECECEC;;
        display: flex;
        align-items: center;      }        
 .header>.container{
        display: flex;
        align-items: center;  } 
-.line{     
-       top: 80px;
-       border-bottom: 1px solid #ECECEC;       }
+
 .logo{
        margin-right: 53px; }
 .navigation{
@@ -202,7 +223,9 @@ button {
        margin-right: 50px;  }
 /* Шапка */
 .helmet{     
-      background: #2F303A;   
+      background: #2F303A;
+      padding-left: 257px;
+      padding-right: 257px;   
       padding-top: 200px;
       padding-bottom: 200px;    }
 .heading{
@@ -210,7 +233,8 @@ button {
        align-items: center;
        width: 616px;
        height: auto;
-       margin: 0px 257px;
+     
+     margin: 0px auto;
        padding-bottom: 30px;
        text-align: center;
        text-transform: uppercase;        }
@@ -332,7 +356,7 @@ button {
        height: 29px;
        margin-left: auto;
        margin-right: auto;
-      padding-top: 10px;
+       padding-top: 10px;
        text-align: center;
        color: #757575;  }
 .col{
@@ -347,7 +371,9 @@ button {
        display: block;
        align-items: center;
        height: 252px;
-       padding-top: 60px;                }
+       background: #2F303A;
+       padding-top: 60px;
+       padding-bottom: 60px;           }
 .adress{
        font-family: Roboto;
        font-style: normal;
@@ -367,10 +393,7 @@ button {
        line-height: 31px;
        letter-spacing: 0.03em;   }
 /* ***портфолио*** */
-.bloc{
-       display: flex;
-       align-items: center;
-       padding-bottom: 50px;   } 
+
 /* кнопка */
 .border{
        border: 1px solid #EEEEEE;
@@ -384,21 +407,25 @@ button {
 .content-tag{         
        margin-right: 27px;  }
 .coloring{
+       width: 1170px;
        background: #ffffff;
+       margin: 0px auto;
        padding-bottom: 79px;
        padding-top: 94px;  }
 .group{
        display: flex; 
        align-items: center; 
-       height: 38px;
-       margin-left: auto;
-       margin-right: auto;     } 
+       width: 1170px;
+       height: auto;
+       padding-bottom: 50px; 
+       padding-left: 240px;
+       padding-right: 240px;     } 
  .filter{
        padding: 6px 22px;
        width: auto;
        height: 38px;     }
 .spreadsheet{ 
-       width: 1200px;
+       width: 1170px;
        height: 1300px;
        display: flex;
        flex-wrap: wrap;      }
@@ -414,6 +441,6 @@ button {
        width: 370px;
        height: 404px;        }
 .internal-block{     
-      padding:20px 24px;  } 
+       padding:20px 24px;  } 
 .stud{
-      margin: 0px 8px;        }      
+       margin: 0px 8px;        }      
