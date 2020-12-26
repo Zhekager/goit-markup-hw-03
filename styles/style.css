@@ -299,9 +299,6 @@ ul{
        text-align: center;  }
 .bowl{
        
-       width: 1200px;
-       height: auto; 
-       margin: 0px auto;
        padding-bottom: 94px;     }
 .wrapper{      
        display: flex;
@@ -410,9 +407,6 @@ ul{
 .content-tag{         
        margin-right: 27px;  }
 .coloring{
-       width: 1170px;
-       background: #ffffff;
-       margin: 0px auto;
        padding-bottom: 79px;
        padding-top: 94px;  }
 .group{
